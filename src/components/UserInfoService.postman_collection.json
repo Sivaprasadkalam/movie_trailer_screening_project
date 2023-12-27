@@ -1,0 +1,247 @@
+{
+	"info": {
+		"_postman_id": "0cd09443-2cef-45d4-abee-6cdd8c8f272d",
+		"name": "UserInfoService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25629205"
+	},
+	"item": [
+		{
+			"name": "addUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstName\":\"Manoj\",\n    \"lastName\":\"Balasubramaniyan\",\n    \"userName\":\"mnoj\",\n    \"password\":\"12345\",\n    \"email\":\"manoj@test.com\",\n    \"isActive\":true,\n    \"createdBy\":\"Siva\",\n    \"userType\":\"Normal\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8084/userInfo/addUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/userInfo/getAllUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"getAllUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "findUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/userInfo/findUser?id=7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"findUser"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateUser-Password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 7,\n    \"first_name\": \"Surya\",\n    \"last_name\": \"Testing\",\n    \"user_name\": \"Surya\",\n    \"password\": \"Siav123456\",\n    \"email\": \"1234\",\n    \"is_active\": true,\n    \"created_timestamp\": \"2023-04-08T03:00:31.165+00:00\",\n    \"created_by\": \"Arun\",\n    \"updated_timestamp\": \"2023-04-08T03:00:31.165+00:00\",\n    \"updated_by\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8084/userInfo/updateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"updateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inactiveUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userId\": 2,\n    \"first_name\": \"Surya\",\n    \"last_name\": \"Testing\",\n    \"user_name\": \"Surya\",\n    \"password\": \"Surya1234\",\n    \"email\": \"1234\",\n    \"is_active\": true,\n    \"created_timestamp\": \"2023-04-08T03:00:31.165+00:00\",\n    \"created_by\": \"Arun\",\n    \"updated_timestamp\": \"2023-04-08T03:00:31.165+00:00\",\n    \"updated_by\": null\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8084/userInfo/inactiveUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"inactiveUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteAllUsers",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/userInfo/deletUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"deletUsers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CheckUserNameExists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/userInfo/getUserName?userName=siva",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"getUserName"
+					],
+					"query": [
+						{
+							"key": "userName",
+							"value": "siva"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n       \"userName\":\"Arun\",\n        \"password\":\"1234\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8084/userInfo/validateUser",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"userInfo",
+						"validateUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addMovie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"movieName\":\"Star Wars\",\n    \"movieTitle\": \"This movie talks about Galaxy\",\n    \"movieGeneral\": \"Action, Fantasy\",\n    \"movieLanguage\": \"English\",\n    \"movieDesc\": \"Testing\",\n    \"createdBy\" :\"Siva\",\n    \"updatedBy\": \"Siva\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/catalog/addMovie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"catalog",
+						"addMovie"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

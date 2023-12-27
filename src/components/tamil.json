@@ -1,0 +1,155 @@
+[
+{
+  "id":1,
+  "image":"Image2/Vikram.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/OKBMCL-frPU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Vikram",
+  "genre":"action/crime",
+  "rating":"8.4/10",
+  "description":"A high-octane action film where a special investigator is assigned a case of serial Killings, he finds the case is not what it seems to be and leading down this path is only going to end in a war between everyone involved."
+},
+
+
+{
+  "id":2,
+  "image":"Image2/Soorarai pottru.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/fa_DIwRsa9o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Soorarai Pottru",
+  "genre":"action/drama",
+  "rating":"8.710",
+  "description":"Nedumaaran Rajangam Maara sets out to make the common man fly and in the process takes on the world's most capital intensive industry and several enemies who stand in his way."
+},
+
+{
+  "id":3,
+  "image":"Image2/Kadaisi vivasayi.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/snBnNbVXeEM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Kadaisi Vivasayi",
+  "genre":"comedy/drama",
+  "rating":"8.8/10",
+  "description":"The last active farmer in a remote village tries to hold out against a property developer."
+},
+
+{
+  "id":4,
+  "image":"Image2/Don.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/G2iHM-pAGoI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Don",
+  "genre":"action/comedy",
+  "rating":"8.8/10",
+  "description":"A youngster who is still figuring out what his passion is gets into an engineering college where he clashes with a disciplinarian faculty member."
+},
+
+{
+  "id":5,
+  "image":"Image2/sivaji.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/pu8slCV36bE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Sivaji",
+  "genre":"action/adventure/drama",
+  "rating":"8/10",
+  "description":"Sivaji: The Boss is a Telugu dubbed action-drama movie starring Rajinikanth, Shriya Saran, Suman, and Vivek. The story revolves around Sivaji, a philanthropist, who intends to provide free education and medical aid to the needy. However, when his ambitious plan finds obstruction from a local don, he decides to teach him a lesson and fulfil his mission of helping the poor."
+},
+
+{
+  "id":6,
+  "image":"Image2/The Legend (2022).png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/mvQK78iCxWY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"The Legend",
+  "genre":"action/drama/romance",
+  "rating":"7.4/10",
+  "description":"Saravanan, a foreign-educated researcher returns to his native place in India. His family runs colleges and hospitals. He crosses swords with a filthy-rich medical mafia with only commercial intentions."
+},
+
+{
+  "id":7,
+  "image":"Image2/Mahaan.png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/i4ORfM-q35Y\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Mahaan",
+  "genre":"action/drama/thriller",
+  "rating":"7.6/10",
+  "description":"Gandhi Mahaan, a school teacher, is abandoned by his family after he decides to live a life of his own, with personal freedom."
+},
+
+{
+  "id":8,
+  "image":"Image2/Sardar.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/8OQzz_i3KFE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Sardar",
+  "genre":"action/drama/thriller",
+  "rating":"7.5/10",
+  "description":"A spy, who is estranged from his family due to a mission, suddenly meets his police officer son."
+},
+
+{
+  "id":9,
+  "image":"Image2/LoveToday.png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/FaQe8JFGdaM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Love Today",
+  "genre":"comedy/drama/romance",
+  "rating":"8.1/10",
+  "description":"Two young lovers, who are made to exchange their phones for a day and what happens due to that."
+},
+
+{
+  "id":10,
+  "image":"Image2/Valimai Movie.jpg",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/Gi83R8jEqZU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Valimai",
+  "genre":"action/crime/thriller",
+  "rating":"7/10",
+  "description":"Arjun, an IPS officer sets out for a mission on hunting down illegal bikers involving in theft and murder."
+},
+
+{
+  "id":11,
+  "image":"Image2/Master.png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/UTiXQcrLlv4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Master",
+  "genre":"action/crime/thriller",
+  "rating":"8/10",
+  "description":"An alcoholic professor is sent to a juvenile school, where he clashes with a gangster who uses the school children for criminal activities."
+},
+
+{
+  "id":12,
+  "image":"Image2/Maanadu.png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/3FuuZU21S80\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Maanaadu",
+  "genre":"action/adventure/sci-fi",
+  "rating":"8.5/10",
+  "description":"On the day of a public conference by the state's Chief Minister, his bodyguard and a police officer are stuck in a time loop."
+},
+
+{
+  "id":13,
+  "image":"Image2/Doctor.png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/oQiH_Iw0kDs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Doctor",
+  "genre":"action/comedy/crime",
+  "rating":"7.9/10",
+  "description":"When his fiancee's niece is kidnapped, a stoic army doctor and his motley team launch a rescue operation in which they need both wit and their wits."
+},
+
+
+{
+  "id":14,
+  "image":"Image2/Asuran (2019).png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/vOCM9wztBYQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Asuran",
+  "genre":"action/drama",
+  "rating":"8.4/10",
+  "description":"The teenage son of a farmer from an underprivileged caste kills a rich, upper caste landlord. Will the farmer, a loving father and a pacifist by heart, be able to save his hot-blooded son is the rest of the story."
+},
+
+
+{
+  "id":15,
+  "image":"Image2/Kaithi (2019).png",
+  "link":"<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/g79CvhHaj5I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+  "name":"Kaithi",
+  "genre":"action/adventure/crime",
+  "rating":"8.5/10",
+  "description":"Dilli, an ex-convict, endeavours to meet his daughter for the first time after leaving prison. However, his attempts are interrupted due to a drug raid planned by Inspector Bejoy."
+}
+
+]

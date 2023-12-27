@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "91bdb381-9d90-4407-8f72-cf1073293b3f",
+		"name": "movie-rating",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25629205"
+	},
+	"item": [
+		{
+			"name": "addMovieRating",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"moviedId\" : 20,\n    \"rating\": 3.00,\n    \"createdBy\": \"Shiva\",\n    \"updatedBy\": \"Shiva\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/ratingsdata/addMovieRating",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"ratingsdata",
+						"addMovieRating"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getRatingList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/ratingsdata/getRatingList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"ratingsdata",
+						"getRatingList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMovieRating",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/ratingsdata/getMovieRating/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"ratingsdata",
+						"getMovieRating",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

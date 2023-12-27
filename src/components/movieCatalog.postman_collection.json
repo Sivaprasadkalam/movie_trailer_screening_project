@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "b3531474-cfa8-4a47-8c87-856136d251c1",
+		"name": "movieCatalog",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25629205"
+	},
+	"item": [
+		{
+			"name": "addMovie",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"movieName\":\"Star Wars\",\n    \"movieTitle\": \"This movie talks about Galaxy\",\n    \"movieGeneral\": \"Action, Fantasy\",\n    \"movieLanguage\": \"English\",\n    \"movieDesc\": \"Testing\",\n    \"createdBy\" :\"Siva\",\n    \"updatedBy\": \"Siva\",\n    \"movieLink\":\"https://youtube.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/catalog/addMovie",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"catalog",
+						"addMovie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMoviesList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/catalog/getMoviesList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"catalog",
+						"getMoviesList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

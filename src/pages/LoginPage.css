@@ -1,0 +1,144 @@
+/* Common styles for both login and register pages */
+.containers {
+  background: linear-gradient(to bottom, #007bff, #009688);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px; /* Add a maximum width for responsiveness */
+  margin: auto; /* Set left and right margins to auto */
+  margin-top: 50px; /* Adjust the top margin value as needed */
+  position: relative;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-sec,
+.register-sec {
+  padding: 30px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 30px;
+  color: #2545c7;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  font-weight: bold;
+}
+
+.login-page .login-form a,
+.Register-page .register-form a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0e0ae5; /* Set the background color for the button */
+  color: #ffffff; /* Set the text color for the button */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.login-page .login-form a:hover,
+.Register-page .register-form a:hover {
+  background-color: #0629dc; /* Set the background color for the button on hover */
+}
+
+
+.form-control {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.text-danger {
+  color: red;
+}
+
+.btn-login {
+  background: #007bff;
+  color: #0a1fdd;
+  font-weight: 600;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spinner-border 0.75s linear infinite;
+}
+
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-white a {
+  color: #fff;
+}
+
+/* Login page specific styles */
+.login-page {
+  background-image: url("wp1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login-block {
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+}
+
+/* Register page specific styles */
+.register-page {
+  background-image: url("wp1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.register-block {
+  float: left;
+  width: 100%;
+  padding: 50px 0;
+}

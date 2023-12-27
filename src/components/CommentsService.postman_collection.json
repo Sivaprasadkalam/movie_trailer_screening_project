@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "f13823d4-2733-4c23-9248-bf226decf8dc",
+		"name": "CommentsService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25629205"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/moviecomments/addComments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"movieId\": 20,\n    \"comments\": \"This is one of best fatasy movie to watch4\",\n    \"createdBy\":\"Shiva\",\n    \"updatedBy\": \"Shiva\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/moviecomments/addComments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"moviecomments",
+						"addComments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllComments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/moviecomments/getAllComments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"moviecomments",
+						"getAllComments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
